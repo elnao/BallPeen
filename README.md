@@ -1,6 +1,6 @@
 # BallPeen
 Alert on Responder usage by automating Respounder.
-Feel free to rename any of the folders, scripts or binaries to help with obfuscation.
+Feel free to rename any of the folders, scripts, or binaries to help with obfuscation.
 
 ## Run the below setup steps
 - Use GPO to push this PS1 file and respounder.exe to C:\Program Files\elnao\.  
