@@ -1,0 +1,7 @@
+BallPeen Event Forwarding Query
+
+ <QueryList>
+  <Query Id="0" Path="Application">
+    <Select Path="Application">*[System[(EventID=1337 or EventID-1338)]]</Select>
+  </Query>
+</QueryList>
