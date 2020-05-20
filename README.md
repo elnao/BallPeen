@@ -14,6 +14,7 @@ Alert on Responder usage by automating Respounder.
 
 ### Information on Responder (what we are trying to detect) can be found here:
 https://github.com/SpiderLabs/Responder
+Responder is a LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.
 
 ### **Respounder** can be downloaded here:
 https://github.com/codeexpress/respounder/releases
