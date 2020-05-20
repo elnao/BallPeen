@@ -1,8 +1,8 @@
 ####################################################
 #  Alert on Responder Activity
-#  Write Event ID 1337 or 1338 to Event Log
-#  Author: 
-#  Date:  6/14/2019
+#  Write Event ID 1337 or 1338 to Application Event Log
+#  https://github.com/elnao/hashes
+#  Date:  05/20/2020
 ###################################################
 
 $EventSource = "BallPeen"
