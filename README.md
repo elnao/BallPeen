@@ -1,7 +1,7 @@
 # BallPeen
 Alert on Responder usage by automating Respounder.
 - Feel free to rename any of the folders, scripts, or binaries to help with obfuscation.
-- Install Ball Peen on one non-critical windows machine in each of your key subnets.  Focus on your workstation subnets.
+- Install BallPeen on one non-critical windows machine in each of your key subnets.  Focus on your workstation subnets.
 
 ## Run the below setup steps
 - Use GPO to push this PS1 file and respounder.exe to C:\Program Files\elnao\.  
