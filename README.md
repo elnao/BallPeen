@@ -7,7 +7,7 @@ Alert on Responder usage by automating Respounder.
 - Use GPO to push this PS1 file and respounder.exe to C:\Program Files\elnao\.  
 - Use GPO to lock the elnao folder down so only admins can get to it. 
 - Use GPO to create a scheduled task to run the BallPeen.ps1 file every 5 minutes.
-- Use GPO to create windows firewall rule allowing **only** respounder.exe on local ports xxxx-xxxxx. (forgot what ports)
+- Use GPO to create windows firewall rule allowing **only** %SystemDrive%\Program Files\elnao\respounder.exe on All local ports and remote ports 137 Udp and 5355 UDP.
 - Use Windows Event Forwarding to forward event ID 1337 and 1338 from the application log to your SIEM.
   See Event Forwarding Query
 - Create alert that fires when event ID 1338 is found. 
